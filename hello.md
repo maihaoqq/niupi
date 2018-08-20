@@ -1,1 +1,1 @@
-这是一次测试test ssh key
+需要运行redis才能跑起来，还有就是sql建表，可以自行修改hibernate配置，自己创表

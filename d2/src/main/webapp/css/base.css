@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0;}
+table { border-collapse: collapse; border-spacing: 0;}
+fieldset, img { border: 0;}
+em, strong,i{ font-style: normal;}
+ol, ul, li { list-style: none;}
+caption, th { text-align: left;}
+input, button, textarea, select, optgroup, option { font-family: arial; font-size: inherit; font-style: inherit; font-weight: inherit; border:0;}
+select, input, label, button, button img, img {vertical-align: middle;}
+input, button, textarea, img { line-height: normal;}
+/*主体*/
+body{ font: 14px/1.5 arial; color: #7e7e7e; min-width: 1190px; font-family: "微软雅黑"; background: #f4f4f4;}
+a{ color: #7e7e7e;text-decoration: none;}
+a:hover{ text-decoration: none;}
+:focus{ outline: 0;}
+.clearfix{ clear: left; zoom: 1;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.hide{ display: none;}
+.tc{ text-align: center;}
+.tr{ text-align: right;}
+.fl{ float: left;}
+.fr{ float: right;}
+.fs12{ font-size: 12px;}
+.fs14{ font-size: 14px;}
+.fs16{ font-size: 16px;}
+.mt-10{ margin-top: 10px;}
+.mr-10{ margin-right: 10px;}
+.mb-10{ margin-bottom: 10px;}
+.pr-18{ padding-right: 18px;}
+.ml-30{ margin-left: 30px;}
+.mt-20{ margin-top: 20px;}
+.ml-200{ margin-left: 200px;}
+.mt-100{ margin-top: 100px;}
+.ml-100{ margin-left: 100px;}
+.ml-10{ margin-left: 10px;}
+.h-102{ height: 102px;}
+.ml-5{ margin-left: 5px;}
+.h-340{ height: 340px;}
+.br-15{ border-radius: 15px; border: solid 1px #eee;}
+.pb-40{ padding-bottom: 40px;}
+.pt-40{ padding-top: 40px; padding-right: 25px;}
+.br-1{ border-right: solid 1px #eee;}
+.w-490{ width: 490px;}
+.bg-color{ background: #eee;}
+.layout{ width: 1190px; margin-left: auto; margin-right: auto;}
+.layout1000{ width: 1000px; margin-left: auto; margin-right: auto;}
+.nolook{ visibility: hidden;}
+
+.no-wrap{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+
+
+.talk-content{ margin-bottom: 5px; color: #000;}
+.talk-content p{ max-width: 300px;  line-height: 30px; margin: 0 5px; padding: 5px; border-radius: 5px; background: #bcee68;}
+.talk-content img{ width: 40px; height: 40px;}
+
+.flex{ display: -webkit-flex; display: flex; display: -webkit-box;}
+.flex-1{ -webkit-flex: 1; flex: 1; -webkit-box-flex: 1; width: 1px;}
+.flex-c{ -webkit-box-align: center; -webkit-align-items: center; align-items: center;}
+.flex-j{ -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between;}
+.flex-cc{ -webkit-box-align: center; -webkit-align-items: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center;}
+
+.dialog-box{ position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 10; background: rgba(0,0,0,.5);}
+.dialog-box .inter{ width: 100%; height: 100%;}
+.dialog-bd{ width: 250px; text-align: center; border-radius: 10px; background: #fff; z-index: 100;}
+.dialog-bd .hd{ padding: 30px 10px; color: #333;}
+.dialog-bd .bd{ border-top: 1px solid #eee; color: #007aff; line-height: 40px;
+    cursor: pointer;}
+.dialog-bd .bd a{ display: block; color: #007aff; border-radius: 0 0 10px 0;}
+.dialog-bd .bd a:nth-child(2){ border-left: 1px solid #eee;}
+.dialog-bd .blue{ background: #009efd; color: #fff; border-radius: 0 0 0 10px;}
